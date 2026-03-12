@@ -1,0 +1,12 @@
+# Question 38
+# Problem: Count words in a string
+# Name: Vaibhavi Gupta
+# Course: BTech DS + AI
+
+def count_words(s):
+    words = s.split()
+    return len(words)
+
+s = "Artificial Intelligence and Data Science"
+
+print(count_words(s))

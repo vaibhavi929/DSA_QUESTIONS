@@ -1,0 +1,16 @@
+# Question 34
+# Problem: Find frequency of each character in string
+# Name: Vaibhavi Gupta
+# Course: BTech DS + AI
+
+def char_frequency(s):
+    freq = {}
+
+    for char in s:
+        freq[char] = freq.get(char, 0) + 1
+
+    return freq
+
+s = "banana"
+
+print(char_frequency(s))
